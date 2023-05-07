@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Web Development:",
+    "Bigdescription": "We specialize in building custom websites that are optimized for user experience and performance. Our websites are designed with the latest technologies and are fully responsive to ensure they look great on any device.",
+    "link": "https://github.com/Megusta23",
+    "image": "../../Github.png"
+  },
+  {
+    "id": 2,
+    "title": "Software Development:",
+    "Bigdescription": "We can help you streamline your business processes with custom software solutions. Our team has experience in developing software for a wide range of industries, including healthcare, finance, and education.",
+    "link": "https://github.com/Megusta23",
+    "image": "../../Github.png"
+  },
+  {
+    "id": 3,
+    "title": "Digital Marketing:",
+    "Bigdescription": "We offer a full suite of digital marketing services to help you grow your online presence. Our team can help you with search engine optimization (SEO), pay-per-click (PPC) advertising, social media marketing, and more.",
+    "link": "https://www.instagram.com/plansio_central/",
+    "image": "../../ig.png"
+  }
+]

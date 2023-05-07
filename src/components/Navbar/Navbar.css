@@ -1,0 +1,23 @@
+.navbar {
+    margin: 2rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 30%;
+}
+
+.button a {
+    background-color: transparent;
+    border: 1px solid black;
+    padding: .5rem 2rem;
+    cursor: pointer;
+    transition: all ease .3s;
+}
+
+.button a:hover {
+    color: white;
+    background-color: #111827;
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Dribbble",
+    "description": "Designes and concepts",
+    "image": "../../dribbble.png",
+    "link": "https://dribbble.com/Plansio"
+  },
+  {
+    "id": 2,
+    "title": "Instagram",
+    "description": "Follow Us!",
+    "image": "../../ig.png",
+    "link": "https://www.instagram.com/plansio_central/"
+  },
+  {
+    "id": 3,
+    "title": "Linked In",
+    "description": "Find out more!",
+    "image": "../../linkedin.png",
+    "link": "https://www.linkedin.com/company/plansio/"
+  }
+]

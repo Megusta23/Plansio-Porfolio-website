@@ -1,0 +1,146 @@
+.aboutUs-conatiner {
+    display: flex;
+    width: 100%;
+}
+
+.aboutUs-conatiner p {
+    margin-bottom: 2rem;
+}
+
+.left-side-aboutUs {
+    flex: 40%;
+    width: 40%;
+    background-color: #111827;
+    color: white;
+    padding: 3.5rem 2rem;
+}
+
+.left-side-aboutUs h1 {
+    color: white;
+}
+
+.left-side-aboutUs h2 {
+    color: white;
+}
+
+.left-side-aboutUs p {
+    margin-bottom: 4rem;
+}
+
+.about-us-cards {
+    background-color: white;
+    color: #111827;
+    border: rgb(156 163 175) solid 1px;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 6rem;
+}
+
+.about-us-card-elements {
+    display: flex;
+    align-items: center;
+}
+
+.about-us-card {
+    border-left: #d6d6d6 solid 1px;
+    margin-left: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+.about-us-card-links {
+    text-align: right;
+}
+
+.about-us-card-links a {
+    cursor: pointer;
+}
+
+.about-us-cards p {
+    margin-bottom: 0;
+}
+
+
+.right-side-aboutUs {
+    flex: 60%;
+    width: 60%;
+    padding: 3.5rem 2rem;
+}
+
+.big-image {
+    width: 100%;
+    margin: 2rem 0;
+}
+
+@media screen and (max-width: 767px) {
+
+    /* styles for mobile devices */
+    .aboutUs-conatiner {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .aboutUs-conatiner p {
+        margin-bottom: 1.5rem;
+    }
+
+    .left-side-aboutUs {
+        flex: 100%;
+        width: 100%;
+    }
+
+    .left-side-aboutUs h1 {
+        color: white;
+        margin-bottom: 1.5rem;
+    }
+
+    .right-side-aboutUs {
+        flex: 100%;
+        width: 100%;
+    }
+
+    .right-side-aboutUs h1 {
+        margin-bottom: 1.5rem;
+    }
+
+    .big-image {
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    /* styles for tablet devices */
+    .aboutUs-conatiner {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .left-side-aboutUs {
+        flex: 100%;
+        width: 100%;
+    }
+
+    .right-side-aboutUs {
+        flex: 100%;
+        width: 100%;
+    }
+
+    .left-side-aboutUs h1 {
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    .right-side-aboutUs h1 {
+        margin-bottom: 2rem;
+        font-size: 3rem;
+    }
+
+    .big-image {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+}

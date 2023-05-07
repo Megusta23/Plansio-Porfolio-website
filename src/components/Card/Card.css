@@ -1,0 +1,110 @@
+.card {
+    width: 100%;
+    background-color: white;
+    border: 1px solid #111827;
+    padding: 1.5rem;
+}
+
+.account-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border-bottom: 1px solid #d6d6d6;
+}
+
+.contact-section-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: #d6d6d6 solid 1px;
+}
+
+.contat-section {
+    margin: 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-section-text {
+    margin-left: 2rem;
+    padding-left: 2rem;
+    border-left: #d6d6d6 solid 1px;
+}
+
+.logo2D {
+    width: 2rem;
+}
+
+
+.projects-client-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+    padding: 1.5rem 0;
+    border-bottom: #d6d6d6 solid 1px;
+}
+
+.clients-text-container {
+    display: flex;
+    align-items: center;
+    border-right: #d6d6d6 solid 1px;
+    margin-right: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.clients-text-container p {
+    font-weight: 900;
+}
+
+.projects-text-container {
+    display: flex;
+    align-items: center;
+}
+
+.projects-text-container p {
+    font-weight: 900;
+}
+
+.products-serve-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons-small {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.icons-big {
+    width: 3rem;
+    height: 3rem;
+}
+
+.card-elements-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    background-color: white;
+    border: #111827 solid 1px;
+    padding: 1.5rem;
+}
+
+.card-elements {
+    display: flex;
+    align-items: center;
+}
+
+.cards {
+    border-left: #d6d6d6 solid 1px;
+    margin-left: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+.card-links {
+    text-align: right;
+}

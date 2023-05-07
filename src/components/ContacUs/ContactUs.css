@@ -1,0 +1,96 @@
+.input-container {
+    display: flex;
+    height: 100%;
+}
+
+.left-side-contact {
+    padding: 2rem;
+    background-color: #111827;
+    color: white;
+    flex: 40%;
+}
+
+.left-side-contact h2 {
+    color: white;
+    margin-bottom: 3rem;
+}
+
+.left-side-contact-info {
+    display: flex;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.left-side-contact-info p {
+    margin-left: 1rem;
+    padding-left: 1rem;
+}
+
+
+.right-side-contact {
+    padding: 2rem;
+    flex: 60%;
+    background-color: white;
+    border-top: #111827 1px solid;
+}
+
+.right-side-contact textarea {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    border: 1px solid #111827;
+    padding: 0.5rem;
+}
+
+.right-side-contact input {
+    width: 100%;
+    border: none;
+    border-bottom: #111827 1px solid;
+    font-size: 1rem;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.submit-input {
+    margin-top: 2rem;
+    background-color: #111827;
+    color: white;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    transition: all ease .3s;
+}
+
+.submit-input:hover {
+    background-color: #d1d1d1;
+    color: #111827;
+}
+
+
+.inputs input {
+    width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+
+    /* styles for mobile devices */
+    .input-container {
+        flex-direction: column;
+    }
+
+    .left-side-contact {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    /* styles for tablet devices */
+    .input-container {
+        flex-direction: column;
+    }
+
+    .left-side-contact {
+        display: none;
+    }
+}
