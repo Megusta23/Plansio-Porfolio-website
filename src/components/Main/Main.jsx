@@ -36,14 +36,6 @@ const Main = () => {
           <div className="card-container">
             <Card />
           </div>
-          <div className="add-container">
-            <div className="blog-add">
-              <p>
-                Visit our blog site for more tips on how to become a better
-                developer & designer
-              </p>
-            </div>
-          </div>
         </div>
       </div>
     </>
